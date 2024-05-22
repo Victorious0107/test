@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 650px;
+  background-color: #FED100;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+main > .person {
+  position: absolute;
+  bottom: 0;
+  right: 619px;
+  z-index: 2;
+}
+
+main > .yellow_truck {
+  position: absolute;
+  bottom: 170px;
+  right: 203px;
+  z-index: 1;
+}
+
+main > .back3 {
+  position: absolute;
+  bottom: 40px;
+  right: 324px;
+}
+main > .back2 {
+  position: absolute;
+  bottom: 58px;
+  right: 342px;
+}
+main > .phone {
+  position: absolute;
+  bottom: 85.1px;
+  right: 365.1px;
+}
+
+.container {
+  width: 1312px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+header > nav {
+  display: flex;
+  gap: 46px;
+}
+
+.hero {
+  margin-top: 23px;
+}
+
+header > nav > a {
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+color: #333;
+text-decoration: none;
+}
+
+.tel {
+font-size: 24px;
+font-weight: 600;
+line-height: 29.26px;
+text-decoration: underline;
+}
+
+.hero_content {
+  width: 546px;
+}
+
+.hero_content > h1 {
+font-size: 70px;
+font-weight: 700;
+line-height: 88.83px;
+color: #333;
+}
+
+.hero_content > h3 {
+font-size: 30px;
+font-weight: 600;
+line-height: 36.57px;
+color: #333;
+margin-top: 10px;
+}
+
+.hero_content > button {
+padding: 15px 95px;
+background-color: #FF352B;
+color: #fff;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.26px;
+border: none;
+margin-top: 50px;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 77px;
+}
+
+.service > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.steps {
+  padding-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.steps > h1 {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+}
+
+.how_content {
+  width: 1106px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 71px;
+}
+
+.how_content > div {
+  display: flex;
+  align-items: start;
+  gap: 42px;
+}
+
+.how_content > div > h1 {
+  text-shadow: 2px 2px #FED100;
+font-size: 50px;
+font-weight: 300;
+line-height: 60.95px;
+}
+
+.how_content>div>div>p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.how_content>div>div>p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+.prices {
+  font-family: "Montserrat", sans-serif;
+}
+
+.price_block {
+  display: flex;
+  gap: 21px;
+  justify-content: center;
+}
+
+.prices > h1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36.57px;
+  color: #333;
+}
+
+.prices > h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+.box1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: 421px;
+  height: 579px;
+  border: solid 1px;
+  border-color: #EBEBEB;
+}
+
+.box2 {
+  text-align: center;
+  width: 421px;
+  height: 579px;
+  border: solid 1px;
+  border-color: #FED100;
+}
+
+.box1 > h3 {
+  margin-top: 84.14px;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+.box2 > h3 {
+  margin-top: 84.14px;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+.items > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.02px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.box1 > h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36.57px;
+  text-align: center;
+  color: #333;
+  margin-top: 35px;
+  margin-bottom: 52px;
+}
+
+.box2 > h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36.57px;
+  text-align: center;
+  color: #333;
+  margin-top: 35px;
+  margin-bottom: 52px;
+}
+
+.box1 > button {
+  width: 250px;
+  height: 51.34px;
+  top: 1778px;
+  left: 397px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #FED100;
+  color: #333;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+}
+
+.box2 > button {
+  width: 250px;
+  height: 51.34px;
+  top: 1778px;
+  left: 397px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #FED100;
+  color: #333;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+}
+
+.about_trucks {
+  font-family: "Montserrat", sans-serif;
+}
+
+.about_trucks > h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.about_trucks > nav {
+  text-align: center;
+}
+
+.about_trucks > nav > a:nth-child(1) {
+  padding: 13px 63px;
+  border: solid 1px #FED100;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  margin-right: 19px;
+}
+
+.about_trucks > nav > a:nth-child(2) {
+  padding: 13px 63px;
+  border: solid #EBEBEB;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  margin-right: 19px;
+
+}
+
+.about_trucks > nav > a:nth-child(3) {
+  padding: 13px 63px;
+  border: solid #EBEBEB;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+
+}
+
+.truck_info {
+  height: 400px;
+  position: relative;
+}
+
+.truck_info > .truck {
+  position: absolute;
+  bottom: 0px;
+  right: 200px;
+}
+
+.truck_info > h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  margin-bottom: 37px;
+  margin-top: 97px;
+}
+
+.truck_info > button {
+  width: 250px;
+  height: 50px;
+  background-color: #FED100;
+  color: #333;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+}
+
+.info > div {
+  display: flex;
+  margin-bottom: 28px;
+  margin-left: 15px;
+}
+
+.info > div > img {
+  width: 13.35px;
+  height: 14px;
+  gap: 0px;
+}
+
+.info > div > div >p {
+  margin-left: 15px;
+}
+
+.feedback {
+  font-family: "Montserrat", sans-serif;
+  height: 665px;
+  background-color: #FED100;
+}
+
+.feedback > h1 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36.57px;
+  color: #333;
+}
+
+.feedbacks {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.feedbacks > div > h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.feedbacks > div > .data {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.02px;
+  margin-bottom: 19px;
+  color:#333333;
+}
+
+.feedbacks > div > .text {
+  color: #333333;
+  margin-bottom: 18px;
+  margin-top: 22px;
+}
+
+.feedbacks  > div > a {
+  color: #333333;
+}
+
+.feedbacks > div > div {
+  display: flex;
+  gap: 9px;
+}
+
+.feedback > button {
+  width: 250px;
+  height: 50px;
+  background-color: #FED100;
+  border: solid 1px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  margin-left: 800px;
+  margin-top: 60px;
+}
+
+.contact {
+  width: 1002px;
+  height: 189px;
+  top: 3536px;
+  left: 459px;
+}
+
+.contact > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact > h1 {
+  margin-top: 125px;
+  margin-bottom: 15px;
+}
+
+.contact > div > form > div > input {
+  margin-top: 47px;
+  border-top:none ;
+  border-right: none;
+  border-left: none;
+  gap: 72px;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+.contact > div > button {
+  width: 250px;
+  height: 50px;
+  background-color: #FF352B;
+  border: none;
+  color: #fff;
+}
+
+.map > iframe {
+  width: 100%;
+  height: 700px;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #FED100;
+  height: 401px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+footer > div {
+  align-items: center;
+  justify-content: center;
+}
+
+footer > .movee > p {
+  margin-top: 36px;
+}
+
+footer > .other_contacts > p {
+  margin-bottom: 10px;
+}
+
+footer > .email > img {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+footer > .email > p {
+  text-decoration: underline;
+  text-align: center;
+}
+
+footer > .number > button {
+  width: 250px;
+  height: 44px;
+  background-color: #FED100;
+  border: solid 1px black;
+  margin-bottom: 5px;
+}
+
+footer > .number > p {
+  text-align: center;
+  justify-content: center;
+  text-decoration: underline;
+}
